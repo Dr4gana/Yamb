@@ -10,7 +10,7 @@ namespace Yamb.Modeli
     class ModelContext : DbContext
     {
         public ModelContext() :
-            base(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=Yamb;Integrated Security=True;")
+            base(@"Data Source=(localdb)\LocalDb;Initial Catalog=Yamb;Integrated Security=True;Connect Timeout=30;")
            
             {
 

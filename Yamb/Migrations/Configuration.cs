@@ -5,14 +5,14 @@ namespace Yamb.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Yamb.Modeli.ModelContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<global::Yamb.Modeli.ModelContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Yamb.Modeli.ModelContext context)
+        protected override void Seed(global::Yamb.Modeli.ModelContext context)
         {
             //  This method will be called after migrating to the latest version.
 
